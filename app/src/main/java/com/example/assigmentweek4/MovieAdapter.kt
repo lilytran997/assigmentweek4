@@ -27,11 +27,11 @@ class MovieAdapter(var items: ArrayList<movie>, val context: Context) : Recycler
     fun setListener(listener: MovieItemCLickListener) {
         this.mListener = listener
     }
-
+/*
     fun setData(items: ArrayList<movie>){
         this.items = items
         notifyDataSetChanged()
-    }
+    }*/
 }
 
 class MovieViewHolder(view: View) : RecyclerView.ViewHolder(view) {
