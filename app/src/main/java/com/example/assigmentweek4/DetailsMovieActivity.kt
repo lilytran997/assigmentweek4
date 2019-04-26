@@ -13,4 +13,5 @@ class DetailsMovieActivity : AppCompatActivity() {
         supportActionBar!!.title = "Details Movie"
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
+    //...
 }

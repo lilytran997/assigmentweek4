@@ -17,6 +17,7 @@ class MovieAdapter(var items: ArrayList<movie>, val context: Context) : Recycler
 
     override fun onBindViewHolder(movieViewHolder: MovieViewHolder, p1: Int) {
 
+        //...
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, p1: Int): MovieViewHolder {
