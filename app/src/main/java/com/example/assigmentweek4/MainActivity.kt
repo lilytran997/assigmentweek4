@@ -8,5 +8,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        //toolbar
+        setSupportActionBar(findViewById(R.id.toolbar))
+        supportActionBar!!.title = "List Movie"
+
     }
 }

@@ -8,5 +8,9 @@ class DetailsMovieActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_details_movie)
+        //toolbar
+        setSupportActionBar(findViewById(R.id.toolbar))
+        supportActionBar!!.title = "Details Movie"
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
 }

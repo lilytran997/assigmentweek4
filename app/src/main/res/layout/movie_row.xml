@@ -10,8 +10,7 @@
         android:layout_marginStart="10dp"
         android:layout_width="100dp"
         android:layout_height="150dp"
-        android:contentDescription="@string/todo"
-        android:src="@drawable/eo56"/>
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/name"
@@ -21,7 +20,7 @@
         android:layout_marginTop="10dp"
         android:layout_toEndOf="@+id/movie"
         android:fontFamily="serif"
-        android:text="@string/name"
+        android:text="@string/name_movie"
         android:textAlignment="center"
         android:textColor="#ffff"
         android:textSize="24sp"

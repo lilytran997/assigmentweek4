@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DetailsMovieActivity"
-    android:background="#555050">
+    android:background="#686767">
     <include
         android:id="@+id/toolbar"
         layout="@layout/tool_bar"/>
@@ -41,7 +41,7 @@
 
     <RatingBar
         android:id="@+id/rating"
-        style="@android:style/Widget.DeviceDefault.Light.RatingBar"
+        style="@android:style/Widget.Holo.RatingBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/date"
@@ -55,6 +55,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/rating"
         android:layout_marginStart="25dp"
+        android:layout_marginEnd="10dp"
         android:text="@string/des"
         android:textColor="#ffff"
         android:textSize="16sp"/>
