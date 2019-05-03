@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     android:background="#000">
     <ImageView
         android:id="@+id/movie"
         android:layout_marginTop="10dp"
         android:layout_marginStart="10dp"
-        android:layout_width="100dp"
-        android:layout_height="150dp"
+        android:padding="10dp"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
         android:contentDescription="@string/todo" />
 
     <TextView
@@ -36,7 +37,7 @@
         android:text="@string/des"
         android:textAlignment="textStart"
         android:textColor="#ffff"
-        android:textSize="20sp" />
+        android:textSize="16sp" />
     
 
 

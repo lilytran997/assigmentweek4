@@ -1,5 +1,8 @@
 package com.example.assigmentweek4
 
+/**
+ * Created by nampham on 4/20/19.
+ */
 class FakeService {
 
     companion object{
@@ -8,7 +11,7 @@ class FakeService {
                 "        {\n" +
                 "            \"vote_count\": 164,\n" +
                 "            \"id\": 456740,\n" +
-                "            \"video\": false,\n" +
+                "            \"video\": true,\n" +
                 "            \"vote_average\": 5.2,\n" +
                 "            \"title\": \"Hellboy\",\n" +
                 "            \"popularity\": 373.147,\n" +
@@ -413,5 +416,4 @@ class FakeService {
                 "    \"total_pages\": 55\n" +
                 "}"
     }
-
 }
