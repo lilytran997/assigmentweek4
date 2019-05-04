@@ -36,11 +36,6 @@ class MovieAdapter(var items: ArrayList<movie.Results>, val context: Context) : 
         return MovieViewHolder(LayoutInflater.from(context).inflate(R.layout.movie_row,parent,false))
     }
 
-/*
-    fun setData(items: ArrayList<movie>){
-        this.items = items
-        notifyDataSetChanged()
-    }*/
 }
 
 class MovieViewHolder(view: View) : RecyclerView.ViewHolder(view) {
